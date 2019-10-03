@@ -1,0 +1,404 @@
+@font-face {
+    font-family: "avenir";
+    src: url("../fonts/AvenirLTStd-Book.otf");
+    }
+
+body{
+    font-family: 'avenir', sans-serif;
+}
+
+.full-container{
+    background: black url('./../img/bg1.png');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.top-header{
+    background: transparent;
+    text-align: center;
+    padding: 15px 0 15px 0;
+}
+
+.other-top-header{
+    background: transparent;
+    text-align: center;
+    padding: 15px 0 15px 0;
+    color: black;
+}
+
+.top-header ul{
+    padding: 0!important;
+    list-style: none;
+}
+
+.other-top-header ul{
+    padding: 0!important;
+    list-style: none;
+}
+
+.other-top-header ul li{
+    display: inline-block;
+    /* margin-left: 5px; */
+}
+
+.other-top-header ul li a{
+    color: black;
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: lighter;
+}
+.top-header ul li{
+    display: inline-block;
+    /* margin-left: 5px; */
+}
+
+.top-header ul li a{
+    color: white;
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: lighter;
+}
+
+.search-container{
+    color: white;
+}
+
+.other-search-container{
+    color: white;
+}
+
+.other-search-container span{
+    color: black;
+}
+.main-navigation{
+    color: white;
+    text-align: center;
+}
+
+.other-main-navigation{
+    color: black;
+    text-align: center;
+}
+
+.other-main-navigation ul{
+    padding: 0!important;
+    list-style: none;
+}
+
+.main-navigation ul{
+    padding: 0!important;
+    list-style: none;
+}
+
+.main-navigation ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.other-main-navigation ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.main-navigation ul li a{
+    color: white;
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+.other-main-navigation ul li a{
+    color: black;
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+.social-media{
+    text-align: center;
+}
+
+.social-media ul{
+    padding: 0!important;
+    list-style: none;
+}
+
+.social-media ul li{
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.social-media ul li a{
+    color: white;
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.slider-container{
+    height: 60%;
+    background: transparent;
+    padding: 15% 0 15% 0;
+    text-align: center;
+}
+
+.slider-container h3{
+    font-size: 2.5em;
+    color: white
+}
+
+.site-caption{
+    text-align: center;
+}
+
+.site-caption ul{
+    list-style: none;
+    padding: 0 !important;
+}
+
+.site-caption ul li{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 1.3em;
+    color: white
+}
+
+.main-footer{
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.main-footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.other-main-footer{
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+    background: black;
+}
+
+.other-main-footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.active-link{
+    text-decoration: underline !important;
+}
+
+/* contact page */
+
+.main-content{
+    padding: 4% 0 4% 0;
+}
+.main-content h4{
+    font-weight: bold;
+}
+
+.long-pic-bg{
+    height: 500px;
+    overflow: hidden;
+}
+
+.join-container{
+
+}
+
+.join-container a:first-child{
+    color: white;
+    background: black;
+    padding: 5px 50px;
+    margin-right: 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.join-container a:last-child{
+    color: black;
+    text-decoration: underline
+}
+
+/* custom bootstrap */
+.panel-default{
+    border-color: transparent !important;
+}
+.panel-default>.panel-heading {
+    color: #333;
+    background-color: transparent !important;
+    border-color: rgb(70, 70, 70) !important;
+    border-bottom: 2px solid;
+}
+.panel-default>.panel-heading a {
+    display: block;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+}
+.panel-body{
+    background: rgb(240, 240, 240);
+}
+
+.custom-panel-body{
+    background: white !important; 
+}
+
+.about-container{
+    background: rgb(240, 240, 240);
+    padding: 8% 0 8% 0;
+}
+
+.team-content span a{
+    color: black;
+    padding: 5px;
+    font-size: 1.1em;
+}
+
+.listing-heading{
+    text-align: center;
+}
+
+.single-property{
+    padding: 0 !important;
+    position: relative;
+   cursor: pointer;
+}
+
+.single-property:hover .product-overlay{
+    display: block   
+}
+
+.like-container a{
+    color: white;
+    padding: 5px;
+    margin-right: 8px;
+}
+
+.price-tag-container{
+    margin-top: 50%;
+    color: black;
+}
+
+.product-overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    background: rgba(51, 51, 51, 0.575);
+    display: none;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.main-property-title{
+    border-top: 1px solid rgb(65, 65, 65);
+    border-bottom: 1px solid rgb(65, 65, 65);
+    padding-top: 13px;
+}
+
+.custom-pagination ul {
+    padding: 0 !important;
+}
+
+.pagination{
+    margin: 0 !important;
+    border-radius: 0 !important;
+}
+
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #000000;
+    text-decoration: none;
+    background-color: #fff;
+    border: none !important;
+}
+
+
+.property-small-details ul{
+    padding: 0;
+    list-style: none;
+}
+
+.property-small-details ul li {
+    display: inline-block;
+    color: black;
+    margin-right: 20px;
+}
+.property-small-details ul li a {
+    color: black;
+}
+
+.property-small-details ul li:last-child {
+    float:right;
+}
+
+.property-major-description{
+    padding-left: 50px;
+}
+
+.purchase-links a:first-child{
+    color: white;
+    background: black;
+    padding: 10px 50px;
+    margin-right: 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.purchase-links a:last-child{
+    color: black;
+    text-decoration: underline
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
