@@ -6,6 +6,10 @@ $(document).ready(function () {
             $(".navigation-container-phone").css({'display':'none'})
         }
     });
+
+    $("#menu-icon").click(function () {
+        $("#nav-bar").slideToggle('fast');
+    });
 });
 
 

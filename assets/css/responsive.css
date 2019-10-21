@@ -1,12 +1,103 @@
 @media screen and (max-width: 1024px) {
-
-   .property-major-description{
+  .property-major-description {
     padding-left: 0px;
-   }
+  }
 
-   .single-property{
+  .single-property {
     margin-top: 20px;
-   }
+  }
 
+  .main-navigation {
+    color: white;
+    margin-top: 0px;
+    display: none;
+  }
 
+  .main-navigation ul {
+    padding: 0 !important;
+    list-style: none;
+    width: 100%;
+  }
+
+  .main-navigation ul li {
+    display: block;
+    margin-left: 0px;
+    margin-top: 5px;
+    text-align: right;
+    padding: 5px 10px;
+  }
+
+  .other-main-navigation ul li {
+    display: block;
+    text-align: right;
+
+  }
+
+  .other-main-navigation {
+    color: black;
+    margin-top: 50px;
+    display: none;
+
+  }
+  .other-main-navigation ul {
+    padding: 0 !important;
+    list-style: none;
+    width: 100%;
+  }
+
+  .other-main-navigation ul li a {
+    color: black;
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    text-align: right;
+  }
+
+  .other-main-navigation ul li {
+    display: block;
+  }
+
+  .main-navigation ul li a {
+    color: white;
+    display: block;
+    padding: 0px 0px;
+    text-decoration: none;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    text-align: right;
+  }
+
+  .slider-container h3 {
+    font-size: 1.5em;
+    color: white;
+  }
+
+  .main-footer {
+    color: white;
+    margin-top: 230px;
+    text-align: center;
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 70px;
+    background: none;
+    border-radius: 0px;
+    padding: 8px 0 3px 0;
+  }
+
+  .menu-icon button {
+    background: #353535;
+    color: white;
+    font-size: 0.7em;
+    outline: none;
+  }
+  .menu-icon button:hover {
+    background: #353535;
+    color: white;
+  }
 }

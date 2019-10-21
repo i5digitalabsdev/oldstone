@@ -174,7 +174,26 @@ body{
     display: inline-block;
     margin-left: 20px;
     font-size: 1.3em;
-    color: white
+    color: white;
+    cursor: pointer;
+}
+
+.site-caption ul li:hover li{
+    display: block;
+}
+
+.site-caption ul li ul{
+    padding: 0 !important;
+}
+
+.site-caption ul li ul li{
+    font-size: .8em;
+    display: none;
+    position: absolute;
+    text-align: left;
+    /* background: red; */
+    /* left:5%; */
+    width: 300px;
 }
 
 .main-footer{
