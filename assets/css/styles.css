@@ -67,6 +67,7 @@ body{
 
 .search-container{
     color: white;
+    padding-left: 5.2%;
 }
 
 .other-search-container{
@@ -79,11 +80,13 @@ body{
 .main-navigation{
     color: white;
     text-align: center;
+    margin-top: 15px;
 }
 
 .other-main-navigation{
     color: black;
     text-align: center;
+    margin-top: 15px;
 }
 
 .other-main-navigation ul{
@@ -147,9 +150,9 @@ body{
 }
 
 .slider-container{
-    height: 60%;
+    height: 10%;
     background: transparent;
-    padding: 15% 0 15% 0;
+    padding: 10% 0 15% 0;
     text-align: center;
 }
 
@@ -211,13 +214,10 @@ body{
 }
 
 .long-pic-bg{
-    height: 500px;
+    /* height: 500px; */
     overflow: hidden;
 }
 
-.join-container{
-
-}
 
 .join-container a:first-child{
     color: white;
@@ -368,6 +368,20 @@ body{
     color: black;
     text-decoration: underline
 }
+
+.small-navigation{
+    padding-right: 8%;
+}
+
+.logo-container{
+    padding-bottom: 10px;
+
+}
+
+.logo-container img{
+    margin-bottom: 8px;
+}
+
 
 
 
