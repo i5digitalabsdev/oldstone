@@ -76,7 +76,7 @@
 
   .main-footer {
     color: white;
-    margin-top: 230px;
+    margin-top: 120px;
     text-align: center;
   }
 
@@ -100,4 +100,31 @@
     background: #353535;
     color: white;
   }
+
+  .site-caption ul li{
+   display: inline-block;
+   margin-left: 20px;
+   font-size: .9em;
+   color: white;
+   cursor: pointer;
+}
+
+.site-caption{
+   text-align: center;
+   margin-top: 120px;
+}
+.site-caption ul li ul{
+   padding: 0 !important;
+}
+
+.site-caption ul li ul li{
+   font-size: .8em;
+   display: none;
+   position: absolute;
+   text-align: left;
+   margin-right: 300px;
+   /* background: red; */
+   /* left:5%; */
+   width: 70px;
+}
 }
