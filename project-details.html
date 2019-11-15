@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700" rel="stylesheet">
 </head>
@@ -17,7 +20,7 @@
                       <div class="col-md-2 empty-container"></div>
                       <div class="col-md-8 small-navigation">
                         <ul class="pull-right">
-                          <li><a href="about.html">Company |</a></li>
+                          <li><a href="about.html" >Company |</a></li>
                           <li><a href="careers.html">Careers |</a></li>
                           <li><a href="contact.html">Contact</a></li>
                         </ul>
@@ -56,8 +59,8 @@
                         <ul>
                           <li><a href="listings.html">Listings</a></li>
                           <li><a href="property-service.html">Property Services</a></li>
-                          <li><a href="construction.html" class="active-link">Construction</a></li>
-                          <li><a href="projects.html">Projects</a></li>
+                          <li><a href="construction.html">Construction</a></li>
+                          <li><a href="projects.html" class="active-link">Projects</a></li>
                         </ul>
                       </div>
                       <div class="col-md-2 hidden-xs  social-media2">
@@ -79,36 +82,83 @@
                     </div>
                   </div>
         <div class="main-content">
-                <div class="container">
-                    <div class="col-md-6">
-                       <h1>Best in class:</h1>
-                       <p>
-                            OldStone provides an integrated construction & engineering services at all scales and in all sectors.
-                            We use advanced technology to deliver engineering and construction projects on time, quality and safety.
-                        </p>
-                    </div>
-                    <div class="col-md-6 join-container" style="margin-top:6%">
-                        
+                <div class="container listing-heading">
+                    <div class="col-md-12">
+                        <h3>
+                            Completed and ongoing projects are listed here
+                        </h3>
                     </div>
                 </div>
                 <br>
                 <br>
-                <div class="container">
+                <br>
+                <div class="property-listing-container">
+                    <div class="container">
+                        <div class="owl-two owl-carousel owl-theme carousel-inner">
+                            <div class="item">
+                                <a href="assets/img/bg1.jpg" data-lightbox="image">
+                                    <img src="assets/img/bg1.jpg" alt="" style="width:100%;">
+                                 </a>
+                            </div>
+                            <div class="item">
+                                <a href="assets/img/bg1.jpg" data-lightbox="image">
+                                    <img src="assets/img/bg1.jpg" alt="" style="width:100%;">
+                                 </a>
+                            </div>
+                            <div class="item">
+                                <a href="assets/img/bg1.jpg" data-lightbox="image">
+                                    <img src="assets/img/bg1.jpg" alt="" style="width:100%;">
+                                 </a>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+        <br>
+        <br>
+        <hr>
+        <div class="property-details">
+            <div class="container">
+                <div class="col-md-8 property-small-details">
+                    <div class="property-image">
+                        <img src="assets/img/bg1.jpg" class="img-responsive" alt="east legon hills">
+                    </div>
+                    <br>
+                    <br>
+                    <h4><strong>Google Location</strong></h4>
+                    <div class="google-map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12869.191941974927!2d-0.21582888470338485!3d5.6561443446952975!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x563093792dc9e41d!2sOldStone!5e0!3m2!1sen!2sgh!4v1570108341552!5m2!1sen!2sgh" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+                <div class="col-md-4 property-major-description">
                     <div class="panel-group" id="accordion">
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
                                     <span class="panel-title">
-                                      Building and Construction
+                                      <strong>Project Description</strong> 
                                     </span>
                                     </a>
                             </div>
                             <div id="collapse1" class="panel-collapse collapse in">
-                                    <div class="panel-body">
+                                    <div class="panel-body custom-panel-body">
                                         <p>
-                                                Oldstone work at all scales and in all sectors providing construction solutions  meet aesthetic as well as functional purposes for our clients.
-                                                We offers pre-construction consulting, program management, project management, construction management, design-build, and building maintenance services.
-                                                From breaking ground right through to flawless world class interior fit-out OldStone specializes in signature residential, commercial and industrial developments
+                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages
+                                        </p>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                                    <span class="panel-title">  
+                                      Amenities
+                                    </span>
+                                    </a>
+                            </div>
+                            <div id="collapse2" class="panel-collapse collapse">
+                                    <div class="panel-body custom-panel-body">
+                                        <p>
+                                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages
                                         </p>
                                     </div>
                             </div>
@@ -117,55 +167,29 @@
                             <div class="panel-heading">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
                                     <span class="panel-title">  
-                                     Renovation
+                                     Near-bys
                                     </span>
                                     </a>
                             </div>
                             <div id="collapse3" class="panel-collapse collapse">
-                                    <div class="panel-body">
-                                       <p>
-                                            Breathe new life into your home or office space.  OldStone delivers a functional, stylish home or office at a cost-effective price.
-                                       </p>
-                                    </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
-                                    <span class="panel-title">  
-                                     Procurement
-                                    </span>
-                                    </a>
-                            </div>
-                            <div id="collapse4" class="panel-collapse collapse">
-                                    <div class="panel-body">
-                                       <p>
-                                            We procure the best  building and furnishing materials from suppliers around the world.
-                                       </p>
-                                    </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
-                                    <span class="panel-title">  
-                                     Infrastructure
-                                    </span>
-                                    </a>
-                            </div>
-                            <div id="collapse5" class="panel-collapse collapse">
-                                    <div class="panel-body">
+                                    <div class="panel-body custom-panel-body">
                                         <p>
-                                        We undertake infrastructure projects such as healthcare, clean power, energy, communications technology and transportation to empower communities and enhance the quality of life.
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages
                                         </p>
                                     </div>
                             </div>
                         </div>
                     </div>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="purchase-links">
+                        <a href="#">Purchase</a>
+                        <a href="#">More Enquiry</a>
+                    </div>
                 </div>
+            </div>
         </div>
-        <br>
-        <br>
         <div class="other-main-footer">
             <div class="container">
                 <div class="col-md-4">
@@ -182,6 +206,8 @@
     </div>
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/lightbox.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/custom.js"></script>
 </body>
 </html>

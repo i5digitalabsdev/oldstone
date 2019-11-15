@@ -129,6 +129,7 @@ body{
 
 .social-media{
     text-align: center;
+    margin-top: 15px;
 }
 
 .social-media ul{
@@ -148,6 +149,80 @@ body{
     text-decoration: none;
     text-transform: uppercase;
 }
+
+
+
+.social-media2{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.social-media2 ul{
+    padding: 0!important;
+    list-style: none;
+}
+
+.social-media2 ul li{
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.social-media2 ul li a{
+    color: rgb(73, 72, 72);
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.social-media-mobile{
+    text-align: center;
+    margin-top: 0px;
+}
+
+
+.social-media-mobile ul{
+    padding: 0!important;
+    list-style: none;
+}
+
+.social-media-mobile ul li{
+    display: inline-block;
+    margin-left: 2px;
+}
+
+.social-media-mobile ul li a{
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.social-media-mobile2{
+    text-align: center;
+    margin-top: 0px;
+}
+
+
+.social-media-mobile2 ul{
+    padding: 0!important;
+    list-style: none;
+}
+
+.social-media-mobile2 ul li{
+    display: inline-block;
+    margin-left: 2px;
+}
+
+.social-media-mobile2 ul li a{
+    color: rgb(71, 67, 67);
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
 
 .slider-container{
     height: 10%;
@@ -400,6 +475,65 @@ body{
 .logo-container img{
     margin-bottom: 8px;
 }
+
+
+.property-brief a{
+    background-color: black;
+    color: white;
+    padding: 6px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: .9em;
+    margin-top: 10px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.property-brief ul{
+    padding: 0;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.property-brief ul li{
+    list-style-type: square;
+}
+
+.property-brief a:hover{
+    background-color: transparent;
+    color: rgb(73, 72, 72);
+    border: 1px solid rgb(161, 161, 161);
+    text-decoration: none;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #000000!important;
+}
+
+.owl-theme .owl-dots{
+    margin-top: -30px !important;
+    position: absolute !important;
+    z-index: 80;
+    left: 20%;
+    right: 20%;
+}
+
+.owl-theme .owl-dot span{
+    background: rgb(207, 206, 206) !important;
+    display: block !important;
+}
+
+
+button.owl-dot {
+    outline: none !important;
+}
+
+.project-list{
+    margin-top: 50px;
+}
+
+
+
 
 
 

@@ -12,4 +12,22 @@ $(document).ready(function () {
     });
 });
 
+$('.owl-one').owlCarousel({
+    loop:true,
+    items:1,
+    nav:false,
+    dots:true,
+    center:true
+})
+
+$('.owl-two').owlCarousel({
+    loop:true,
+    items:2,
+    margin:5,
+    nav:false,
+    dots:true,
+    center:true
+})
+
+
 
